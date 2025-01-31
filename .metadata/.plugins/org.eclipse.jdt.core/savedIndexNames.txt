@@ -1,0 +1,2 @@
+INDEX VERSION 1.134+C:\Users\S01881046\CSC_Combo_SP25_BWonch\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
