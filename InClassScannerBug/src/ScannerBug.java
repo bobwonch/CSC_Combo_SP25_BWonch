@@ -6,6 +6,8 @@ public class ScannerBug {
 		Scanner input;
 		input = new Scanner(System.in);
 		
+		System.out.println(System.out);
+		
 		System.out.println("enter a whole number");
 		int x = input.nextInt();//leaves a new line in the buffer
 		input.nextLine();
