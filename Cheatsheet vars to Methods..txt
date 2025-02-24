@@ -1,0 +1,162 @@
+Variable Data Types
+
+int - integer is whole number
+float - a number with a decimal point
+double - same a float but it's twice as big
+char - is a single character
+String - is the only one that is a class. Notice the capital 'S' it is a string of characters aka a word
+boolean - true/false
+
+Equality Operators 
+Result in a Boolean Expression
+
+== - is the right side the same as the left side
+>= - is the left side greater than or eqaul to the right side
+<= - is the left side smaller than or eqaul to the right side
+> - is the left side greater than the right side
+< - is the right side greater than the left side
+!= - not equal
+
+Logical Operators
+
+&& - logical "and" both have to be true for true
+|| - logical "or" only one needs to be true for true
+! - not or opposite
+
+Math and Assignment
+follows PEMDAS no exponents yet
+(), *, /, +, -
+= - assignment what is on the right to the variable on the left.
+% - is division that returns the remainder 
+so 12 % 2 = 0 and 13 % 2 = 1 -- 100 % 13 will return a number between 0 - 12
+
+Decisions - if statements
+contain only one statement or compaound { } statement.
+
+if(x < 10)//condition of the decision
+{
+      SOP(x);// this happens if true
+}else // may or may not have an else.
+{
+      SOP(-x);//this happens if false
+}
+
+x = 11 and y = 12
+if(x < 10 && y > 10) -- use of an "and" --false
+if(x < 10 || y > 10) -- use of an "or" -- true
+if(!(x < 10) && (y>10)) -> x must be 10 or greater and y must be greater than 10 to be true -- true
+
+Condition - (expression) 
+       An expression with a relational and/or a logical operators is called a Boolean expression.
+       When true the loop continues
+       Every expression return a value; make sure you are using a relational/logical operator.
+Initializer
+       All variables used in the condition (Boolean Expression) must be initialized. Given a value.
+Changer 
+       At leat one of the variable in the Condition must change within the loop. otherwise infinite looping
+Body 
+       the statement that need executed when the condition is true.
+
+Loop will contain only one statement or compound statement { }.
+
+While loops
+
+Ex 1.
+
+count = 1; ................................................Initializer
+while( count < 10)..................................Condition
+{ ..............................................................start of Body
+
+         SOP(count);
+         count ++; .........................................Changer
+} ..............................................................end of Body
+
+Ex 2.
+
+SOP("Enter a number:");
+num = input.nextInt(); //Initializer
+count = 0;
+total = 0;
+while(num > 0)//Condition
+{ //body
+     total = total + num;
+     SOP("Enter the next number:");
+     num = input.nextInt();//Changer
+     count++;
+}
+
+For Loops
+//initialize (i = 0) condition (i < 10) changer (i++)
+for(int i = 0; i < 10; i++)
+{                                            start of body
+       SOP(i);	
+}                                             end of body
+
+for(int i = 1; i <= 10; i++)
+{
+      for(int j = 1; j <= 10; j++)
+      {
+             SOP (i * j) inside 3 spaces so 1__...
+      }
+      SOP(new line)
+}
+the above nested loop will produce a 10 X 10 multiplication table
+
+Methods
+
+Signature
+
+public static int add(int x, int y)
+// public is the Access Modifier, static means it is outside of main, 
+//int is the return type, add is the name of the method int x and int y are arguments/parameters
+{
+       return x + y; //returns the sum of x and y
+}
+
+instead of int if we use String returns a String, float returns a float, etc.
+
+void means there isn't a return
+
+to call the above method:
+
+the return must be printed or put in a variable.
+
+int sum = add(12, 13);   12 = to what variable? x and 13 is y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+

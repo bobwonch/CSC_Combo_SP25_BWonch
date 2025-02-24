@@ -1,0 +1,182 @@
+Variable data types
+
+int - integers represent whole numbers -- int x = 0; 32 bits
+float - represents real numbers. -- float x = 1.1; 32 bits
+double - same as a float but twice the size and precision. 64 bits
+char - a single character -- char firstInitial = 'B'; 8 bits.
+String - capitalized, so it is a class, that represents more than one character. ie word, sentence, a paragraph, etc. size of available memory
+boolean - true/false - 1 bit
+
+Equality Operators
+
+== - Equivalence or is the thing on the right the same as the thing on the left
+
+int a = 9;
+int b = 9;
+a == b is true.
+
+> - is the left greater than the right
+
+a = 10 
+b = 9
+a > b is true
+
+< is left less than the right
+
+b < a is true
+
+>= - greater or equal to means is the left as big or bigger than the right
+a >= b is true
+
+<= - less than or equal to means the left is the same or smaller than the right
+
+!= - not equal anything but a match between to two variables.
+
+Logical Operators
+
+&& - logical "and" means both sides must be true for the expression to be true
+
+|| - logical "or" means only one side has to be true for the expression to evaluate to true
+
+! = Not or opposite of what ever the expression evaluates to !true = false ! false = true
+
+int a = 9;
+if !(a > 100) --- evaluates a(9) > 100 which is true, then we use the not(!) to change the outcome to false.
+
+Math
+
+Using PEMDAS (), *, /, %, +, - 
+
+% - modulus or remained division where the remained is returned
+
+so 9 % 5 ->  9 / 5 = 1 with r4 -> 4
+9 % 5 = 4
+
+Increment/Decrement
+
+++ - means add one to whatever number it is currently -> a++ ~means~ a = a + 1
+-- means subtract one from the current number
++= means add the number on the right to the number on the left. so a +=2 ~means~ a = a + 2 
+-= means subtract the number on the right from the number on the left a -= 2 ~means~ a = a - 2
+
+Decisions if statements
+
+int a = 9
+   //Condition a < 10 
+if(a < 10) -> evaluates to true
+{ //body
+     SOP(a) // only happens if the Condition is true
+}else
+{ //body
+     SOP(-a) // only happen when the condition evaluate to false
+}
+
+Logical Operators usages
+
+numGrade = 85;
+
+if(numGrade >= 80 && numGrade <= 89) -> the numGrade must be between 80 up to and including 89 to evaluate to true
+
+if(a == 10 && h > 55) a must be ten and b must be 56 or more to evealuate to true.
+
+if(h > 55 || a > 12) one of these must be true to evaluate to true. So h is 56 and a is 11 -> true 
+
+a   b   &&   ||
+0   0     0    0
+0   1     0    1
+1   0     0    1
+1   1     1    1
+
+Loops While
+
+Condition (expression) 
+        An expression with a relational and/or a logical operators is called a Boolean expression.
+        When true, loops continues.
+        Every expression returns a value; makes sure that your condition uses a relational/logical expression
+
+Intializer: All variables used in the condition (Boolean Expression) must be initialized to a value.
+
+Changer: at least one of the variavles in the Condition must change inside the loop
+
+Body: Contains the statements to be executed/repeated inside the loop. The loop will contain exactly one statement. But that
+statement can be a compound statement { }
+total = 0;
+count = 1;..................................................Initializer
+          
+while(count < 10).......................................Condition
+     SOP(count ++); ...................................Changer/Body
+
+while(count < 10)......................................Condition
+{.................................................................Start of Body
+     SOP(count);
+     total += count
+     count++................................................Changer	
+}.................................................................End of Body
+
+SOP("enter a number");
+num = input.nextInt();//Intializer
+count = 0;
+total = 0
+while(num > 0)//Condition
+{ //body
+         total += num; // same as total = total + num;
+         SOP("enter another number");
+         num = input.nextInt();//Changer
+         count++;
+}
+SOP("there were " + count + " numbers entered");
+//Initializer; Condition; Changer 
+for(int i = 0; i < 10; i++)
+{//body
+      SOP (i);
+}
+    
+Methods
+
+Signature - the first line of a method
+
+//Access modifier static keyword return type name (arguments)
+public static int add(int a, int b)
+{//body
+     int sum = a + b
+      return sum;
+}
+
+int c = add(12, 13)//returned data must be stored 
+or
+SOP(add(12, 13)//printed
+
+Return types 
+all of the data types or void // void = returns nothing  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
