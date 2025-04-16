@@ -13,6 +13,10 @@ public class Card {
 		this.suit = suit;
 	}
 	
+	
+	
+	
+
 	public boolean equals(Card that)
 	{
 		return this.rank == that.rank && this.suit == that.suit;

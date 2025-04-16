@@ -72,7 +72,10 @@ public class Time {
 
 	public Time convert()
 	{
-		if(this.hour
+		if(this.hour > 12)
+		{
+			
+		}
 	}
 	
 	//getters and setters

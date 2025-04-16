@@ -21,15 +21,15 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="JavaProjectWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="595"/>
+		<item key="DIALOG_X_ORIGIN" value="8"/>
 		<item key="DIALOG_Y_ORIGIN" value="8"/>
 		<item key="DIALOG_WIDTH" value="746"/>
 		<item key="DIALOG_HEIGHT" value="862"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="8"/>
-		<item key="DIALOG_Y_ORIGIN" value="147"/>
+		<item key="DIALOG_X_ORIGIN" value="664"/>
+		<item key="DIALOG_Y_ORIGIN" value="125"/>
 		<item key="DIALOG_WIDTH" value="574"/>
 		<item key="DIALOG_HEIGHT" value="659"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
@@ -107,5 +107,129 @@
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="RenameInformationPopup">
+	</section>
+	<section name="JavadocWizardDialog">
+		<item key="DIALOG_X_ORIGIN" value="526"/>
+		<item key="DIALOG_Y_ORIGIN" value="150"/>
+		<item key="DIALOG_WIDTH" value="885"/>
+		<item key="DIALOG_HEIGHT" value="567"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="javadoc">
+		<item key="javadoc_command_history" value="C:\Eclipse\java-2024-12\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javadoc.exe"/>
+		<item key="fromStandard" value="true"/>
+		<item key="docletname" value=""/>
+		<item key="docletpath" value=""/>
+		<item key="access" value="private"/>
+		<item key="use" value="true"/>
+		<item key="author" value="true"/>
+		<item key="version" value="true"/>
+		<item key="nodeprecated" value="false"/>
+		<item key="nodeprecatedlist" value="false"/>
+		<item key="splitindex" value="true"/>
+		<item key="noindex" value="false"/>
+		<item key="notree" value="false"/>
+		<item key="nonavbar" value="false"/>
+		<item key="openinbrowser" value="false"/>
+		<item key="source" value="21"/>
+		<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\WarGame\javadoc.xml"/>
+		<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\WarGame\doc"/>
+		<section name="projects">
+			<section name="InClassJan29">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\InClassJan29\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\InClassJan29\javadoc.xml"/>
+			</section>
+			<section name="HelloCSC_Combo">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\HelloCSC_Combo\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\HelloCSC_Combo\javadoc.xml"/>
+			</section>
+			<section name="Calculator">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\Calculator\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\Calculator\javadoc.xml"/>
+			</section>
+			<section name="Sandbox2">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\Sandbox2\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\Sandbox2\javadoc.xml"/>
+			</section>
+			<section name="WarGame">
+				<item key="href" value="file:/C:/Users/S01881046/CSC_Combo_SP25_BWonch/WarGame/doc/;https://docs.oracle.com/en/java/javase/21/docs/api/"/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\WarGame\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\WarGame\javadoc.xml"/>
+			</section>
+			<section name="WarCardGame">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\WarCardGame\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\WarCardGame\javadoc.xml"/>
+			</section>
+			<section name="Time">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\Time\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\Time\javadoc.xml"/>
+			</section>
+			<section name="In_classJan29">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\In_classJan29\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\In_classJan29\javadoc.xml"/>
+			</section>
+			<section name="ClassFeb4">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\ClassFeb4\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\ClassFeb4\javadoc.xml"/>
+			</section>
+			<section name="Time2">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\Time2\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\Time2\javadoc.xml"/>
+			</section>
+			<section name="DNDFun">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\DNDFun\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\DNDFun\javadoc.xml"/>
+			</section>
+			<section name="Sandbox">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\Sandbox\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\Sandbox\javadoc.xml"/>
+			</section>
+			<section name="D&amp;DCharacterCreator">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\D&amp;DCharacterCreator\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\D&amp;DCharacterCreator\javadoc.xml"/>
+			</section>
+			<section name="Calculator2">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\Calculator2\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\Calculator2\javadoc.xml"/>
+			</section>
+			<section name="InputCheckSheet">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\InputCheckSheet\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\InputCheckSheet\javadoc.xml"/>
+			</section>
+			<section name="InClassScannerBug">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\InClassScannerBug\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\InClassScannerBug\javadoc.xml"/>
+			</section>
+			<section name="HelloWorld">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\HelloWorld\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\HelloWorld\javadoc.xml"/>
+			</section>
+			<section name="DNDCharacterGame">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\DNDCharacterGame\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\DNDCharacterGame\javadoc.xml"/>
+			</section>
+			<section name="Conditionals">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\Conditionals\doc"/>
+				<item key="antpath" value="C:\Users\S01881046\CSC_Combo_SP25_BWonch\Conditionals\javadoc.xml"/>
+			</section>
+		</section>
 	</section>
 </section>
