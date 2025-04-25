@@ -1,0 +1,13 @@
+Animal
+70
+200
+Annie
+Pig
+70
+375
+Penelope
+Pink
+Cow
+93
+1200
+Cleo
