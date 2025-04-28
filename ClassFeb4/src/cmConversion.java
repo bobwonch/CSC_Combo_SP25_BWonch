@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class cmConversion {
 
 	public static void main(String[] args) {
+		
+		
 		int inch;
 		double cm;
 		final double CM_PER_INCH = 2.54;

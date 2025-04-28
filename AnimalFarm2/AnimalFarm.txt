@@ -11,3 +11,8 @@ Cow
 93
 1200
 Cleo
+Pig
+200
+345
+Percival
+White with black spots
