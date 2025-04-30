@@ -14,6 +14,7 @@ public class StringSorting {
 			System.out.println("Enter string:");
 			strings[i] = input.next();
 		}
+		System.out.println("**********************************");
 		sSort(strings, false);
 		print(strings);
 		sSort(strings, true);
